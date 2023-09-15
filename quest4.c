@@ -12,4 +12,6 @@ int main (){
     printf("Digite um double: \n");
     scanf("%lf", p);
     printf("O numero digitado foi %lf\n", *(double *)p);
+
+    return 0;
 }
