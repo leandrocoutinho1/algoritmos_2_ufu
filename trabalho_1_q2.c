@@ -1,3 +1,8 @@
+//Codigo fonte criado por alunos de SI da UFU:
+//Diogo Arantes Borges Andrade
+//Bruno Henrique Oliveira
+//Leandro Coutinho Cesário Junior
+
 #include <stdio.h>
 #include <stdlib.h>
 #define N 15000
