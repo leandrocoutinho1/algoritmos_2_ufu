@@ -21,4 +21,6 @@ int main(){
     scanf("%d", &y);
 
     printf("%d ^ %d = %d\n", x, y, Exponenciacao(x, y));
+
+    return 0;
 }
