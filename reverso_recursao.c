@@ -11,7 +11,7 @@ int main(){
     printf("Qual o tamanho da string desejada? ");
     scanf("%d", &n);
 
-    S = (char *)malloc(n*sizeof(char))
+    S = (char *)malloc(n*sizeof(char));
 
 
 
