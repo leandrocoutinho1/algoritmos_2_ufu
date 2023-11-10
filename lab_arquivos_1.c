@@ -19,6 +19,7 @@ int main() {
         printf("Falha na alocação de memória.\n");
         return 1;
     }
+    
 
     printf("Digite o texto desejado: Lembre-se, maximo de %d caracteres.\n", tamanhoMaximo);
     gets(resumo);
@@ -26,6 +27,7 @@ int main() {
     fputs(resumo, arquivo);  // Adiciona a linha ao arquivo
 
     fclose(arquivo);
+    free(resumo);
 
     return 0;
 }

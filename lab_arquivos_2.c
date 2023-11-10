@@ -3,7 +3,6 @@
 int main() {
     FILE *arquivo;
     char caractere;
-    int i = 0;
 
     arquivo = fopen("resumo_TCC.txt", "r"); // Abre o arquivo para leitura
 
